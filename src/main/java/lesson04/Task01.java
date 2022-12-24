@@ -5,7 +5,11 @@ public class Task01 {
         System.out.println("output of numbers from 0 to 10:");
         int uupperLimit = 10;
         for (int number = 0; number <= uupperLimit; number++) {
-            System.out.printf("%s, ", number);
+            if (number < uupperLimit) {
+                System.out.printf("%s, ", number);
+            } else {
+                System.out.printf("%s. ", number);
+            }
         }
     }
 }
