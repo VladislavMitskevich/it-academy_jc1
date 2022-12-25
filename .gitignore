@@ -1,3 +1,9 @@
 #IntelleJ IDEA
 .idea\
 .out\
+/.idea/.gitignore
+/.idea/it-academy_jc1.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/out/
